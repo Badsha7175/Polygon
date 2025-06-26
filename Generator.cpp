@@ -28,3 +28,11 @@ int main(int argc, char* argv[]) {
 	// rnd.next("one|two|three")    .....random word out of 'one', 'two' and 'three'
 	// rnd.next("[1-9][0-9]{99}")    ....random 100-digit number as a string
 }
+
+/*
+
+<#list 1..10 as s>
+    Generator_name  ${s} > $
+</#list>
+
+*/
